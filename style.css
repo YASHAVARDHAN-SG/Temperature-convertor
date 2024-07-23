@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+background-image: url("https://imgs.search.brave.com/9_cXUJAi94Gck1mZYQDQY2OKq-96HBUMLBvuX5qCnrI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDI1Nzgx/OTUuanBn");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+h1{
+    background-image: linear-gradient(rgb(238, 13, 13),rgb(0, 4, 128));
+    color: transparent;
+    background-clip: text;
+}
+form{
+    background-image: linear-gradient(to right,gray,brown);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 30px;
+ /* box-shadow: 10px 10px 30px rgb(32, 220, 32); */
+    background-clip: text;
+}
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 200%;
+    border: 2px green;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-image: linear-gradient(tomato,rgb(0, 247, 255));
+    font-size: 1.5em;
+    border: 2px tomato;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-image: linear-gradient(gray,rgb(161, 222, 97));
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
